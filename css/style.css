@@ -202,3 +202,12 @@ body{
 .btn-secondary:hover{
     background: #cbd5e1;
 }
+
+
+/* footer style section */
+.footer {
+    background: #1e293b;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
