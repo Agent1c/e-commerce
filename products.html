@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Freaky Coding E-Commerce</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <!-- Navigation Bar -->
+      <div class="nav-container">
+        <h2 class="logo">Freaky Coding</h2>
+        <ul class="nav-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li>
+            <a href="cart.html" class="cart-link"
+              >Cart (<span id="cart-count">0</span>)</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main class="main-content">
+      <div class="container">
+        <h1 class="page-title">Our Products</h1>
+        <!-- Filter btns -->`
+        <button class="filter-btn active" data-catagory="all">
+          All Products
+        </button>
+        <button class="filter-btn" data-catagory="all">Products</button>
+        <button class="filter-btn" data-catagory="all">Laptops</button>
+        <button class="filter-btn" data-catagory="all">Accessories</button>
+      </div>
+      <div class="products-grid" id="products-grid">
+        <!-- javascript will populate here -->
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; 2025 Freaky Coding. All rights reserved.</p>
+    </footer>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
